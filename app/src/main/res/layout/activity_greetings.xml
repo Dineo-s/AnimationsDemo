@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="horizontal"
+    tools:context=".GreetingsActivity">
+
+    <TextView
+        android:id="@+id/H"
+        style="@style/fontStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/helloH"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/E"
+        style="@style/fontStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/helloE"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/L"
+        style="@style/fontStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/helloL"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/LtextView"
+        style="@style/fontStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="@string/helloLL"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/O"
+        style="@style/fontStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="@string/helloO"
+        android:visibility="gone" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/greetMe"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/say_hi"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+        app:cornerRadius="2dp"
+        app:strokeColor="@color/colorPrimary"
+        app:strokeWidth="2dp" />
+</LinearLayout>

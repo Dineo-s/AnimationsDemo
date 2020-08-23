@@ -4,5 +4,11 @@
 	<string name="scale">Scale</string>
 	<string name="translate">Translate</string>
 	<string name="fade">Fade</string>
-	
+    <string name="helloH">H</string>
+	<string name="helloE">e</string>
+    <string name="helloL">l</string>
+	<string name="helloLL">l</string>
+	<string name="helloO">o</string>
+    <string name="say_hi">Say Hi</string>
+
 </resources>
