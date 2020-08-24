@@ -142,6 +142,7 @@ class MainActivity2 : AppCompatActivity(), Animator.AnimatorListener {
     fun viewPropertyAnimator(view: View) {
         val vpa = targetImage.animate()
         //animation happen same time, unlike using animation set were you have to order them
+        //for simple animation
         vpa.apply {
             duration = 1000
             rotationX(360.0f)
@@ -151,7 +152,20 @@ class MainActivity2 : AppCompatActivity(), Animator.AnimatorListener {
             alpha(0.5f)
             interpolator = OvershootInterpolator()
             start()
+        }
+    }
 
+    fun propertyValuesHolder(view: View) {
+        //recomended if wanna make use of events listners
+        val rotX = PropertyValuesHolder.ofFloat("rotationX", 360f)
+        val scaleXX = PropertyValuesHolder.ofFloat("scaleX", 1.5f)
+        val scaleY = PropertyValuesHolder.ofFloat("scaleY", 1.5f)
+
+        val objA = ObjectAnimator.ofPropertyValuesHolder(targetImage, rotX, scaleXX, scaleY)
+        objA.apply {
+            duration = 1000
+            interpolator = OvershootInterpolator()
+            start()
         }
 
     }
