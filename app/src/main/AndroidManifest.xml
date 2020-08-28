@@ -9,13 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <!-- <activity android:name=".animateDrawables.AnimationSetActivity"/>-->
         <activity android:name=".GreetingsActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".MainActivity2" />
         <activity android:name=".DrawablesActivity" />
+        <activity android:name=".VectorDrawablesActivity" />
 
-
-        <activity android:name=".VectorDrawablesActivity">
+        <activity android:name=".animateDrawables.AnimationSetActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

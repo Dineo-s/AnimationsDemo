@@ -1,14 +1,14 @@
 <resources>
-	<string name="app_name">AnimationsDemo</string>
-	<string name="rotate">Rotate</string>
-	<string name="scale">Scale</string>
-	<string name="translate">Translate</string>
-	<string name="fade">Fade</string>
+    <string name="app_name">Animations Hub</string>
+    <string name="rotate">Rotate</string>
+    <string name="scale">Scale</string>
+    <string name="translate">Translate</string>
+    <string name="fade">Fade</string>
     <string name="helloH">H</string>
-	<string name="helloE">e</string>
+    <string name="helloE">e</string>
     <string name="helloL">l</string>
-	<string name="helloLL">l</string>
-	<string name="helloO">o</string>
+    <string name="helloLL">l</string>
+    <string name="helloO">o</string>
     <string name="say_hi">Say Hi</string>
 
 </resources>
